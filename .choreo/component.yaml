@@ -1,0 +1,7 @@
+# +required The configuration file schema version
+schemaVersion: 1.2
+
+dependencies:
+    connectionReferences:
+    - name: HelloWorldConn
+      resourceRef: service:/connections/hello-world-service/v1/803f0/PUBLIC
