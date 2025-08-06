@@ -1,0 +1,4 @@
+[package]
+org = "devant"
+name = "connections_fe"
+version = "1.0.0"
