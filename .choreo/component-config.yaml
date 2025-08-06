@@ -1,0 +1,10 @@
+apiVersion: core.choreo.dev/v1beta1
+kind: ComponentConfig
+spec:
+  outbound:
+      serviceReferences:
+      - name: choreo:///devant/connections/hello-world-service/803f0/v1/PUBLIC
+        connectionConfig: 01f072a5-225a-1516-b139-a88442a5d2c5
+        env:
+        - from: ServiceURL
+          to: BK_URL
